@@ -3,12 +3,12 @@ import Link from "next/link";
 export default function Menu() {
   return (
     <nav>
-      <link href={"/"} prefetch={false}>
+      <Link href={"/"} prefetch={false}>
         Hello
-      </link>
-      <link href={"/"} prefetch={false}>
+      </Link>
+      <Link href={"/henry"} prefetch={false}>
         Henry
-      </link>
+      </Link>
     </nav>
   );
 }
